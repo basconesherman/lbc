@@ -1,0 +1,146 @@
+#contact-grid{
+	width:980px;
+	margin:0 auto;
+}
+#contact-left{
+	width:500px;
+}
+#contact-right{
+	width:480px;
+}
+#contact-sub-title{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:36px;
+	color:#6D6E71;
+	margin-top:-40px;
+	text-align:center;
+}
+#contact-left  p#text{
+	font-family:"Spinnaker";
+	font-size:12pt;
+	text-align:justify;
+	color:#58595B;
+	padding:0 10px 0 10px;
+	margin-top:-20px;
+}
+.banner{
+	width:435px;
+	height:39px;
+	margin-left:-22px;
+}
+.text1{
+	font-family:"Spinnaker";
+	font-size:12pt;
+	text-align:center;
+	letter-spacing:2px;
+	color:#262626;
+	margin-top:20px;
+}
+.text2{
+	font-family:"Spinnaker";
+	font-size:11pt;
+	text-align:center;
+	color:#262626;
+	margin-top:-10px;
+}
+#text3{
+	font-family:"Spinnaker";
+	font-size:11pt;
+	text-align:left;
+	color:#262626;;
+}
+#contact-right form{
+	width:460px;
+	height:680px;
+	float:right;
+	background-image:url('../images/form-bg.png');
+	background-size:460px 680px;
+}
+.form-layer-one{
+	width:191px;
+	margin:37px 0 0 23px;
+}
+.form-layer-one span{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:24px;
+	color:white;
+}
+.form-layer-one:last-child{
+	margin-left:30px;
+}
+.form-layer-one input{
+	width:100%;
+	height:30px;
+	border:none;
+}
+
+.form-layer-two{
+	width:405px;
+	margin:10px 0 0 23px;
+}
+.form-layer-two span{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:24px;
+	color:white;
+}
+.form-layer-two input{
+	width:100%;
+	height:30px;
+	border:none;
+}
+
+.form-layer-three{
+	width:404px;
+	margin:10px 0 0 23px;
+}
+.form-layer-three span{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:24px;
+	color:white;
+}
+.form-layer-three textarea{
+	width:100%;
+	height:285px;
+	border:none;
+	resize:none;
+}
+#upload-file-container strong{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:24px;
+	color:white;
+	font-weight:normal;
+	margin-left:20px;
+}
+#attach::-webkit-file-upload-button{visibility:hidden;}
+#attach::before {
+  content: 'ADD FILE';
+  display: inline-block;
+  background: #484748;
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+  color:white;
+}
+#attach:hover::before {
+  border-color: ;
+}
+#attach:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#submit{
+	width:159px;
+	height:36px;
+	background: url('../images/form-submit.png') no-repeat;
+   background-size:159px 36px;
+   border:none;
+   float:right;
+   margin:10px 7px 0 0;
+   cursor:pointer;
+}

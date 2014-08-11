@@ -1,0 +1,170 @@
+h2.medium{
+	font-family:"Heroic Condensed Regular";
+	font-size:32pt;
+	font-weight:normal;
+	color:#414042;
+	padding:0;
+	margin:0;
+	padding-top:20px;
+}
+#navbar-admin{
+	float:right;
+	margin-right:15px;
+}
+#navbar-admin ul li{
+	display:inline;
+	padding:10px;
+	font-family:"Heroic Condensed Regular";
+	font-size:20pt;
+}
+#admin-header-left{
+	width:700px;
+	height:auto;
+	float:left;	
+	background-image:url(../images/debut_light_@2X.png);
+}
+#admin-header-right{
+	width:320px;
+	height:auto;
+	float:left;
+	background-image:url(../images/debut_light_@2X.png);
+	box-shadow: -3px 0px 5px 1px #aaaaaa;
+}
+.admin-title{
+	border-bottom:solid 2px gray;
+	font-family:"Heroic Condensed Regular";
+	font-size:30pt;
+	letter-spacing:2px;
+	font-weight:normal;
+	color:#414042;
+	padding:0;
+	padding-top:12px;
+	margin:0;
+}
+
+#admin-actions{
+	margin-left:70px !important;
+	margin-top:30px !important;
+}
+input[type=radio] {
+    display:none;
+	margin:10px;
+}
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 16px;
+	margin-right:24px;
+    border-color: #ddd;
+	font-family:"Spinnaker";
+}
+input[type=radio]:checked + label .items{ 
+	opacity:0.6;
+	border:solid 1px gray;
+	box-shadow:inset 1px 1px 10px 3px black;
+}
+.items{
+	width:132px;
+	height:100px;
+	background:white;
+	position:relative;
+	margin-top:40px;
+	margin-bottom:20px;
+	border: solid 2px #BCBEC0;
+	cursor:pointer;
+	box-shadow: 3px 3px 8px #888888;
+}
+.item-text{
+	font-size:10pt;
+	color:#414042;
+	font-weight:500;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:92%;
+	background:white;
+	padding:5.2px;
+	margin:0;
+	text-align:right;
+	border-top: solid 2px #D1D3D4;
+}
+
+#admin-right-text{
+	font-family:"Cheap Pine Sans";
+	font-size:20pt;
+	color:gray;
+	text-align:center;
+	width:90%;
+	margin:0 auto;
+}
+#admin-button{
+	padding:15px 50px 15px 50px;
+	background:#414042;
+	text-align:center;
+	box-shadow: inset 1px 1px 20px 2px black;
+	color:lightgray;
+	width:130px;
+}
+
+#admin-header-left2{
+	width:1024px;
+	height:auto;
+	float:left;	
+	background-image:url(../images/debut_light_@2X.png);
+}
+
+#left,#right{
+	width:50%;
+	float:left;
+	font-family:"Spinnaker";
+	font-size:16pt;
+	color:#414042;
+}
+.form{
+	width:320px;
+	height:30px;
+	margin-left:60px;
+	font-family:"Spinnaker";
+	font-size:14pt;
+}
+#specs{
+	font-family:"Heroic Condensed Regular";
+	font-size:20pt;
+	font-weight:normal;
+	color:gray;
+	line-height:35px;
+}
+.specs-text{
+	
+}
+#details-left{
+	width:45%;
+	display:inline-block;
+	float:left;
+}
+#details-right{
+	width:55%;
+	display:inline-block;
+	float:left;
+}
+.left-specs{
+	width:35%;
+	float:left;
+	display:inline-block;
+}
+.right-specs{
+	width:65%;
+	float:left;
+	display:inline-block;
+}
+#edit_btn{
+	padding:15px 70px 15px 70px;
+	background:#414042;
+	text-align:center;
+	box-shadow: inset 1px 1px 20px 2px black;
+	color:lightgray;
+	float:right;
+}
+.edit-order{
+	height:25px;
+}

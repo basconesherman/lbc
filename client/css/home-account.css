@@ -1,0 +1,67 @@
+#account-home{
+	width:1024px;
+	height:500px;
+	margin:0 auto;
+	background-image:url(../images/LoginPages-2.jpg) !important;
+	background-size:1024px 500px;
+}
+#home-account-left{
+	width:500px;
+	float:left;
+}
+#home-account-left-one{
+	width:320px;
+	float:left;
+}
+#greetings{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:22pt;
+	text-align:left;
+	color:#58595B;
+	padding:0;
+	margin-top:45px;
+	font-weight:normal;
+}
+.label-detail{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:20pt;
+	color:#58595B;
+}
+.details{
+	font-family:"Heroic Condensed Regular";
+	font-size:20pt;
+	color:#58595B;
+	display:inline-block;
+	padding:0;
+	margin:0;
+}
+#address{width:200px;margin:-30px 0 0 105px;}
+
+#home-account-right{
+	width:424px;
+	height:200px;
+	float:left;
+}
+#home-account-right iframe{
+	width:380px;
+	height:260px;
+	border:none;
+	overflow:hidden;
+	float:right;
+	margin-top:30px;
+}
+.right-btns{
+	display:inline-block;
+}
+#home-account-right-one{
+	width:424px;
+}
+.right-btns:first-child{
+	margin-left:45px;
+	margin-right:15px;
+}
+.right-btns:last-child{
+	margin-right:-100px !important;
+	margin-left:15px;
+	padding-top:10px;
+}

@@ -1,0 +1,563 @@
+#sub-title{
+	font-family:"MrEavesSanOTBook";
+	font-size:19pt;
+	text-align:center;
+	letter-spacing:3px;
+	margin-top:-55px;
+}
+#pricing-tab-1{
+	width:924px;
+	margin:0 auto;
+	box-shadow: 3px 3px 10px gray;
+	margin-top:-36px;
+}
+#single-stock{
+	width:425px;
+	display:inline-block;
+	padding-right:22px;
+	border-right:solid 1px #B3B4B4;
+}
+#duplex-stock{
+	width:425px;
+	display:inline-block;
+	float:right;
+}
+input[type=radio] {
+    display:none;
+	margin:10px;
+}
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 16px;
+	margin-right:24px;
+    border-color: #ddd;
+	font-family:"Spinnaker";
+}
+input[type=radio]:checked + label { 
+	opacity:0.8;
+	background: #ddd;
+}
+.items{
+	width:152px;
+	height:95px;
+	background:white;
+	position:relative;
+	margin-top:10px;
+	margin-bottom:20px;
+	border: solid 2px #E6E7E8;
+	cursor:pointer;
+}
+.item-text{
+	font-size:12pt;
+	color:#414042;
+	font-weight:500;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:93%;
+	background:white;
+	padding:5.2px;
+	margin:0;
+	text-align:right;
+	border-top: solid 2px #D1D3D4;
+}
+.pearl{background:#FFF2D4;}
+.crest{background:#231F20;}
+.d-gray{background:#75797C;}
+.r-gray{background:#B3B4B4;}
+.stone{background:#BBB0A6;}
+.kraft{background:#C9AF86;}
+.scarlet{background:#85171A;}
+.rosa{background:#FAC6C7;}
+.navy{background:#002B5C;}
+.mint{background:#9EE9C5;}
+
+#tabs ul{
+	padding:0;
+}
+#tabs ul li{
+	display:inline-block;
+	padding-right:2px;
+}
+#total{
+	width:105px;
+	height:72px;
+	background-image:url('../images/pricing-total.png');
+	background-size:105px 72px;
+	float:right;
+	margin-top:-10px;
+}
+.activated{display:block;}
+.deactivated{display:none !important;}
+
+#drop1{
+	width:215px;
+	height:36px;
+	position:absolute;
+	margin:-75px 0 0 340px;
+	font-family:"Heroic Condensed Regular";
+	font-size:22pt;
+	color:#706F6F;
+	cursor:pointer;
+}
+
+#paper-options{
+	margin-bottom:50px;
+	width:100%;
+}
+input[type=radio].options {
+    display:none !important;
+	margin:10px !important;
+}
+input[type=radio] + label.paper {
+    display:inline-block !important;
+    margin:-2px !important;
+    padding: 4px 16px !important;
+    border-color: #ddd !important;
+	box-shadow: 3px 3px 10px gray;
+	cursor:pointer;
+	width:335px;
+	height:45px;
+	background:#F1F2F2;
+	font-family:"Heroic Condensed Regular" !important;
+}
+input[type=radio]:checked + label.paper { 
+	opacity:0.8 !important;
+	background: #73C6A1 !important;
+	color:white !important;
+}
+input[type=radio]:checked + label.paper.text-option {
+	color:white !important;
+}
+.text-option{
+	font-size:23pt;
+	color:#414042;
+	font-weight:500;
+	width:93%;
+	padding:5.2px;
+	margin:0;
+	text-align:center;
+}
+#paper-submit{
+	width:100px;
+	height:56px;
+	background:none;
+	border:none;
+	cursor:pointer;
+	float:right;
+	background-image:url(../images/next-btn.png);
+	background-size:100px 56px;
+	margin:0 40px 30px 0
+}
+
+/*SIZE***********************************************************************************************/
+#standard{
+	position:relative;
+	margin-top:200px;
+}
+input[type=radio].size {
+    display:none !important;
+	margin:10px !important;
+}
+input[type=radio] + label.size {
+    margin:-2px !important;
+    padding: 4px 16px !important;
+    border-color: #ddd !important;
+	width:335px;
+	height:45px;
+	background:#F1F2F2;
+	box-shadow: 3px 3px 10px gray;
+	font-family:"Heroic Condensed Regular" !important;
+	cursor:pointer;
+}
+input[type=radio]:checked + label.size { 
+	opacity:0.8 !important;
+	background: #73C6A1 !important;
+	color:white !important;
+}
+#size-box{
+	margin-top:-100px;
+}
+.size-boxes{
+	display:inline-block;
+	margin-left:60px;
+	position:relative;
+	line-height:23px;
+	cursor:pointer;
+}
+.size-boxes:last-child{
+	margin-left:90px;
+}
+#standard-box{
+	width:265px;
+	height:157px;
+	background-image:url('../images/standard.png');
+	background-size:265px 157px;
+}
+#square-box{
+	width:193px;
+	height:193px;
+	margin-left:90px;
+	background-image:url('../images/square.png');
+	background-size:193px 193px;
+}
+#skinny-box{
+	width:122px;
+	height:266px;
+	background-image:url('../images/skinny.png');
+	background-size:122px 266px;
+}
+.size-boxes h2{
+	font-family:"Cheap Pine Sans";
+	font-size:24pt;
+	color:#DDDBDB;
+	/*color:#706F6F;*/
+	font-weight:500;
+	position:absolute;
+	bottom:0;
+	right:0;
+	background:white;
+	padding: 0 10px 5px 0;
+	text-align:right;
+	margin-right:10px;
+}
+.size-boxes h2 span{font-size:16pt;padding-right:8px;}
+.selected{color:#706F6F !important;}
+#size-submit{
+	width:100px;
+	height:56px;
+	background:none;
+	border:none;
+	cursor:pointer;
+	float:right;
+	background-image:url(../images/next-btn.png);
+	background-size:100px 56px;
+	margin:-60px 40px 30px 0
+}
+/*QUANTITY*****************************************************************************************************/
+#quantity-box{
+	margin-top:50px;
+}
+.quantity-boxes{
+	width:170px;
+	height:146px;
+	background-image:url(../images/quantity.png);
+	background-size:170px 146px;
+	display:inline-block;
+	margin-left:30px;
+	position:relative;
+	line-height:23px;
+	cursor:pointer;
+}
+.quantity-boxes h2{
+	font-family:"Cheap Pine Sans";
+	font-size:28pt;
+	color:#DDDBDB;
+	/*color:#706F6F;*/
+	font-weight:500;
+	position:absolute;
+	bottom:0;
+	right:0;
+	background:white;
+	padding: 0 10px 5px 0;
+	text-align:right;
+	margin-right:10px;
+}
+#quantity2,#quantity3,#quantity4{
+	margin-left:50px !important;
+}
+
+#single-color-tab{
+	width:460px;
+	float:left;
+}
+#duplex-color-tab{
+	width:460px;
+	float:right;
+}
+.color-text {
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:32pt;
+	font-weight:normal;
+	color:#706F6F;
+	padding:0;
+	margin:0;
+	margin-top:-5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+.color-text2 {
+	font-family:"MrEavesSanOTBook";
+	font-size:17pt;
+	font-weight:normal;
+	color:#706F6F;
+	padding:0;
+	margin:0;
+	margin-top:9px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+#single{
+	border-right: solid 2px #D1D3D4;
+}
+.radioBtn{
+	width:20px;
+	height:20px;
+	background:white;
+	border: solid 2px #D1D3D4;
+	margin:0 auto;
+	margin-top:10px;
+	margin-left:-20px;
+	cursor:pointer;
+	border-radius:100px;
+}
+.radioBtnInside{
+	width:10px;
+	height:10px;
+	background:#706F6F;
+	margin-left:5px;
+	margin-top:5px;
+	border-radius:100px;
+}
+.arrow{
+	width:80px;
+	height:65px;
+	margin-top:-20px;
+	display:inline-block;
+}
+.color-desc{
+	display:inline-block;
+	font-family:"Heroic Condensed Regular";
+	font-size:29pt;
+	color:#58595B;
+	position:absolute;
+	margin:-5px 0 0 20px;
+}
+.color-grid{
+	width:95%;
+	margin-left:120px;
+	margin-top:-30px;
+}
+.letterpress{
+	margin:45px 0 0 -130px;
+	position:absolute;
+	width:110px;
+	height:25px;
+}
+.foil{
+	font-family:"MrEavesSanOTBook";
+	margin:-14px 0 0 60px;
+	position:absolute;
+	width:115px;
+	height:30px;
+	font-size:17pt;
+	text-indent:20px;
+}
+#line2{
+	background:#D1D3D4;
+	width:75%;
+	height:2px;
+	margin-top:50px;
+	margin-left:40px;
+	margin-bottom:50px;
+}
+#extras-box{margin-left:20px;width:100%;}
+.color-text3 {
+	font-family:"Heroic Condensed Regular";
+	font-size:28pt;
+	font-weight:normal;
+	color:#706F6F;
+	padding:0;
+	margin:0;
+	margin-top:2px;
+}
+.color-text4 {
+	font-family:"MrEavesSanOTBook";
+	font-size:15pt;
+	font-weight:normal;
+	color:#706F6F;
+	padding:0;
+	margin:0;
+	margin-top:8px;
+	margin-left:-3px;
+}
+.radioBtn2{
+	width:15px;
+	height:15px;
+	background:white;
+	border: solid 2px #D1D3D4;
+	margin:0 auto;
+	margin-top:10px;
+	margin-left:-20px;
+	cursor:pointer;
+	border-radius:100px;
+}
+.radioBtnInside2{
+	width:5px;
+	height:5px;
+	background:#706F6F;
+	margin-left:5px;
+	margin-top:5px;
+	border-radius:100px;
+}
+.letterpress2{
+	margin:5px 0 0 180px;
+	position:absolute;
+	width:110px;
+	height:25px;
+}
+.foil2{
+	font-family:"MrEavesSanOTBook";
+	margin:18px 0 0 90px;
+	position:absolute;
+	width:115px;
+	height:30px;
+	font-size:17pt;
+	text-indent:20px;
+}
+h2.color-paper{
+	font-family:"MrEavesSanOTBook";
+	font-size:17pt;
+	font-weight:normal;
+	color:#706F6F;
+}
+.size-arrow{
+	width:40px;
+	height:35px;
+	margin:0px 0 0 10px !important;
+	position:absolute;
+}
+#paper-title1{
+	position:absolute;
+	margin: -35px 0 0px 70px !important;
+}
+.items2{
+	width:112px !important;
+	height:75px !important;
+}
+.item-text-box{
+	font-size:12pt;
+	color:#414042;
+	font-weight:500;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:88.5%;
+	background:white;
+	padding:4px 6.2px 4px 6.2px;
+	margin:0;
+	text-align:right;
+	border-top: solid 2px #D1D3D4;
+}
+.size-arrow2{
+	width:40px;
+	height:35px;
+	margin:-20px 0 0 50px !important;
+	position:absolute;
+}
+#paper-title2{
+	position:absolute;
+	margin: -57px 0 0px 180px !important;
+}
+#paper-title3{
+	position:absolute;
+	margin: -57px 0 0px 315px !important;
+}
+#preview-image{
+	position:absolute;
+	margin-left:90px;
+	width:385px;
+	height:270px;
+}
+h2.color-paper3{
+	font-family:"MrEavesSanOTBook";
+	font-size:16pt;
+	font-weight:normal;
+	color:#706F6F;
+}
+#edit{
+	margin: 0 0 0 30px;
+	position:absolute;
+}
+.upload{
+	position:absolute;
+	margin:280px 0 0 230px;
+}
+#upload-file-container strong{
+	font-family:"MrEavesSanOTBook";
+	font-size:20px;
+	color:#414042;
+	font-weight:normal;
+	margin-left:20px;
+	padding:0;
+	letter-spacing:2px;
+}
+#attach::-webkit-file-upload-button{visibility:hidden;}
+#attach::before {
+  content: 'ADD FILE';
+  display: inline-block;
+  background: #484748;
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+  color:white;
+  position:absolute;
+}
+#attach:hover::before {
+  border-color: ;
+}
+#attach:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+input[type='file'] {
+  width: 95px;
+}
+#line3{
+	background:#D1D3D4;
+	width:90%;
+	height:2px;
+	margin-top:50px;
+	margin-left:40px;
+	margin-bottom:50px;
+}
+.upload-text{
+	font-family:"Heroic Condensed Regular";
+	font-size:24pt;
+	color:#414042;
+}
+.upload-drop{
+	font-family:"MrEavesSanOTBook";
+	margin:-14px 0 0 40px;
+	position:absolute;
+	width:200px;
+	height:30px;
+	font-size:17pt;
+	text-indent:20px;
+}
+.upload-btns{
+	background:none;
+	display:inline-block;
+	border:none;
+	position:absolute;
+}
+#login-up{
+	width:165px;
+	height:30px;
+	background:url('../images/upload-login.png');
+	background-size:165px 30px;
+	margin:5px 0 0 5px !important;
+}
+#create-up{
+	width:166px;
+	height:30px;
+	background:url('../images/upload-create.png');
+	background-size:166px 30px;
+	margin:5px 0 0 196px !important;
+}

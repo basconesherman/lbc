@@ -1,0 +1,116 @@
+#header{
+	width:1024px;
+	height:240px;
+	background-image:url(../images/linen_@2X.png);
+}
+#header-col-one{
+	width:332px;
+}
+#login{
+	width:70px;
+	height:70px;
+	margin:-16.5px 0 0 -9.1px;
+	cursor:pointer;
+}
+
+#header-col-two{
+	width:311px;
+	margin-top:10px;
+}
+#logo{
+	width:300px;
+	height:180px;
+	margin-left:-10px;
+}
+
+#header-col-three{
+	width:332px;
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:32pt;
+	text-align:right;
+	color:#706F6F;
+	margin-top:-3px;
+}
+
+#hidden-login{
+	width:300px;
+	height:220px;
+	background-image:url('../images/login.png');
+	background-size:300px 220px;
+	display:none;
+}
+.label-box{
+	width:100px;
+	display:inline-block;
+}
+#hidden-login strong{
+	text-align:right;
+	color:white;
+	font-size:22pt;
+	font-family:"Heroic Condensed Regular";
+	font-weight:normal;
+	margin-left:20px;
+}
+
+#hidden-login input{
+	width:165px;
+	height:22px;
+	margin-left:10px;
+	font-family:"Heroic Condensed Regular";
+	font-size:19px;
+	letter-spacing:1px;
+	text-indent:10px;
+}
+
+#mail{
+	margin-left:9px !important;
+}
+#pass{
+	margin-left:20px;
+}
+#forgot{
+	font-family:"Spinnaker";
+	font-size:9pt;
+	color:white;
+	text-align:right;
+	margin:5px 25px 0 0;
+}
+#login-button{
+	width:142px;
+	height:23px;
+	background-image:url('../images/login-button.png');
+	background-size:170px 23px;
+	border:none;
+	cursor:pointer;
+	float:right;
+	margin:7px 27px 0 0;
+}
+#create{
+	font-family:"Spinnaker";
+	font-size:12pt;
+	color:white;
+	text-align:center;
+	margin:0;
+	letter-spacing:2px;
+	cursor:pointer;
+}
+#key1{
+	margin:23px 0 0 123px;
+	cursor:pointer;
+}
+
+#hello-user{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:22pt;
+	text-align:center;
+	color:white;
+}
+#accnt-btn{
+	width:160px;
+	height:30px;
+	background-image:url('../images/accnt-btn.png');
+	background-size:160px 30px;
+	border:none;
+	cursor:pointer;
+	margin:-10px 0 20px 70px;
+}

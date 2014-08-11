@@ -1,0 +1,161 @@
+/**************** FONT IMPORT *****************************************/zzzz
+@font-face {
+font-family:"Heroic Condensed Regular";
+src: url("typetrust.otf") /* OTF file for CSS3 browsers */
+}
+@font-face {
+font-family:"Thirtsty Rough Lt Thr";
+src: url("thirsty.otf") /* OTF file for CSS3 browsers */
+}
+@font-face {
+font-family:"MrEavesSanOTBook";
+src: url("Emigre.otf") /* OTF file for CSS3 browsers */
+}
+@font-face {
+font-family:"Cheap Pine";
+src: url("Cheap_Pine_Regular.otf") /* OTF file for CSS3 browsers */
+}
+@font-face {
+font-family:"Cheap Pine Sans";
+src: url("Cheap_Pine_Sans.otf") /* OTF file for CSS3 browsers */
+}
+@font-face {
+font-family:"Spinnaker";
+src: url("Spinnaker-Regular.ttf") /* OTF file for CSS3 browsers */
+}
+
+body{
+	margin:0;
+	border:0;
+	padding:0;
+	background-image:url(../images/low_contrast_linen_@2X.png);
+}
+.container{
+	width:1024px;
+	margin:0 auto;
+	background-image:url(../images/debut_light_@2X.png);
+}
+.grid{
+	width:975px;
+	margin:0 auto;
+}
+.content-grid{
+	width:924px;
+	margin:0 auto;
+}
+.title #title{
+	font-family:"Heroic Condensed Regular";
+	font-size:56px;
+	color:#706F6F;
+	text-align:center;
+	margin-top:30px;
+}
+.title span{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:32px;
+}
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 5px 0 5px 0;
+}
+#footer{
+	background-image:url('../images/metal@2x.jpg');
+}
+#footer p{
+	font-family:"Heroic Condensed Regular";
+	font-size:22pt;
+	text-align:center;
+	color:#575756;
+	padding:3px;
+	margin:0;
+}
+.left{text-align:left;}
+.right{text-align:right;}
+.justify{text-align:justify;}
+.center{text-align:center;}
+h2.desc2{
+	font-family:"Heroic Condensed Regular";
+	font-size:16pt;
+	letter-spacing:2px;
+	font-weight:normal;
+	color:#414042;
+	padding:0;
+	padding-top:12px;
+	margin:0;
+}
+h2.small{
+	font-family:"Heroic Condensed Regular";
+	font-size:22pt;
+	font-weight:normal;
+	color:#414042;
+	padding:0;
+	margin:0;
+	padding-top:20px;
+}
+.input2{
+	width:90%;
+	height:30px;
+	margin-top:5px;
+	background:#e6e6e8;
+	font-size:20px;
+	text-indent:10px;
+}
+#submit2{
+	width:150px;
+	height:40px;
+	font-family:"Heroic Condensed Regular";
+	font-size:22pt;
+	background-image:url('../images/low_contrast_linen_@2X.png');
+	background-size:150px 40px;
+	color:white;
+	border:none;
+	border-radius:5px;
+	float:right;
+	margin-right:25px;
+	cursor:pointer;
+}
+/*  ELEMENTS   ============================================================================= */
+img{
+	margin:0;
+	padding:0;
+	border:0;
+	display:block;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+}
+a{
+	text-decoration:none;
+	color:#706F6F;
+}
+li{list-style:none;}
+
+.article{
+	font-family:"Spinnaker";
+	font-size:13px;
+	color:58595B;
+}

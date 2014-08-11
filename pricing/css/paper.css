@@ -1,0 +1,20 @@
+#paper-box{
+	width:920px;
+	background-image:url('../images/debut_light_@2X.png');
+	box-shadow: 3px 3px 3px #888888;
+	margin:-21px 0 0 50px;
+	border: solid 1px #DBDCDD;
+}
+#colors-box{
+	width:920px;
+	height:500px;
+	background-image:url('../images/debut_light_@2X.png');
+	box-shadow: 3px 3px 3px #888888;
+	margin:-21px 0 0 50px;
+	border: solid 1px #DBDCDD;
+	display:block;
+}
+.quote{
+	position:absolute;
+	margin: -65px 0 0 200px;
+}

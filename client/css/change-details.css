@@ -1,0 +1,81 @@
+#change-details{
+	width:1024px;
+	height:627px;
+	margin:0 auto;
+	background-image:url(../images/change-details-bg.png) !important;
+	background-size:1024px 627px;
+}
+#change-left{
+	width:460px;
+	float:left;
+}
+#shipping-address{
+	width:444px;
+	height:260px;
+	background-image:url('../images/shipping-address.png');
+	background-size:444px 260px;
+	margin-left:-50px;
+}
+#email-address{
+	width:452px;
+	height:173px;
+	background-image:url('../images/email.png');
+	background-size:452px 173px;
+	margin:60px -50px 50px 0;
+	float:right;
+}
+#change-password{
+	width:448px;
+	height:240px;
+	background-image:url('../images/password.png');
+	background-size:448px 240px;
+	margin-right:-50px;
+	float:right;
+	margin-bottom:50px;
+}
+
+.change-title{
+	font-weight:normal;
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:18pt;
+	color:white;
+	margin:0 0 0 60px;
+	padding-top:20px;
+}
+#label{
+	font-family:"Spinnaker";
+	font-size:10pt;
+	color:white;
+	margin-left:60px;
+}
+.details{
+	font-family:"Spinnaker";
+	font-size:10pt;
+	color:white;
+	display:inline-block;
+	padding:0;
+}
+#address{width:200px;margin:5px 0 0 10px;position:absolute;}
+#address2{width:200px;margin:3px 0 0 10px;position:absolute;}
+#change-left textarea{
+	width:320px;
+	height:100px;
+	border:none;
+	resize:none;
+	margin:20px 0 0 60px;
+	overflow-x:hidden;
+	text-indent:0px;
+}
+.form-input-type{
+	width:365px;
+	height:30px;
+	margin-left:60px;
+}
+button{
+	float:right;
+	margin-top:10px;
+	background:none;
+	border:none;
+	margin-right:-6px;
+	cursor:pointer;
+}

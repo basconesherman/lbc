@@ -1,0 +1,127 @@
+#home{
+	background-image:url('../images/home-bg.png');
+	background-size:100% 100%;
+	background-position:20px 60px;
+	width:100%;
+}
+#home-layer-one{
+	width:95%;
+	margin:25px 0 15px 0;
+	margin-left:2.5%;
+}
+
+#home-layer-two-one{
+	width:250px;
+	margin-left:30px;
+}
+#home-layer-two-one img{
+	width:100%;
+}
+
+#home-layer-two-two{
+	width:710px;
+	margin-top:5px;
+	margin-left:30px;
+}
+#home-layer-two-two .img{
+	width:170px;
+	height:150px;
+	margin-left:-40px;
+	display:inline-block;
+	cursor:pointer;
+}
+#home-layer-two-two .img:first-child{
+	margin-left:-20px;
+}
+#first{
+	width: 168x; 
+	height: 152px;
+    background: url('../images/first.png') no-repeat left top;
+	/*-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;*/
+}
+#first:hover { background-position: -162.5px 0px }
+#second{
+	width: 168x; 
+	height: 152px;
+    background: url('../images/second.png') no-repeat left top;
+}
+#second:hover { background-position: -169px 0px }
+#third{
+	width: 168x; 
+	height: 152px;
+    background: url('../images/third.png') no-repeat left top;
+}
+#third:hover { background-position: -169px 0px }
+#fourth{
+	width: 168x; 
+	height: 152px;
+    background: url('../images/fourth.png') no-repeat left top;
+}
+#fourth:hover { background-position: -169px 0px }
+#fifth{
+	width: 168x; 
+	height: 152px;
+    background: url('../images/fifth.png') no-repeat left top;
+}
+#fifth:hover { background-position: -165px 0px }
+#graphic{
+	position:absolute;
+	margin:-10px 0 0 800px;
+	z-index:0;
+}
+#home-layer-three-one{
+	width:315px;
+	margin-left:30px;
+}
+#home-layer-three-one img{
+	width:100%;
+}
+#home-layer-three-two{
+	width:609px;
+	margin-left:15px;
+	z-index:100;
+}
+#home-layer-three-two p{
+	font-family:"Cheap Pine";
+	font-size:233px;
+	color:#DADADA;
+	margin:-40px 0 0 0;
+	padding-left:20px;
+}
+
+#home-layer-four-one{
+	width:315px;
+	margin-left:40px;
+}
+#home-layer-four-one img{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	cursor:pointer;
+	margin-left:15px;
+	margin-top:-20px;
+}
+#home-layer-four-one img:first-child{
+	margin-left:0;
+}
+#home-layer-four-two{
+	width:100px;
+}
+#home-layer-four-two img{
+	width:80px;
+	height:80px;
+	margin-top:-35px;
+}
+#home-layer-four-three{
+	width:509px;
+}
+#home-layer-four-three p{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:32pt;
+	margin-top:-25px;
+	padding:0 0 0 10px;
+	color:#706F6F;
+}

@@ -1,0 +1,84 @@
+/**************** FONT IMPORT *****************************************/
+@font-face {
+font-family:"Heroic Condensed Regular";
+src: url("typetrust.otf") /* OTF file for CSS3 browsers */
+}
+#resultTable {
+background-color: white;
+margin-top: -20px;
+width: 100%;
+color:#000000;
+border:none;
+text-align:center !important;
+}
+#resultTable th.sortable {
+	background-image: url('../images/low_contrast_linen_@2X.png');
+	/*border-bottom: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;*/
+	color: white;
+	font-family:"Thirtsty Rough Lt Thr";
+	letter-spacing: 2px;
+	padding: 10px 3px 10px 6px;
+	text-align: center !important;
+	cursor: pointer;
+	text-decoration: none;
+}
+#resultTable th.sortable:hover { color: black; }
+#resultTable th {
+	background-image: url('../images/low_contrast_linen_@2X.png');
+	/*border-bottom: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;*/
+	font-family:"Thirtsty Rough Lt Thr";
+	letter-spacing: 2px;
+	padding: 10px 0px 3px 0px;
+	text-align: center;
+	color: white !important;
+	cursor: pointer;
+	text-decoration: none;
+	font-size:16pt;
+	font-weight:500 !important;
+}
+#resultTable th:hover { color: white; }
+#resultTable th.sorted-asc, th.sorted-desc  { color: white; }
+
+#resultTable td {
+	background: none repeat scroll 0 0 #FFFFFF;
+	/*border-bottom: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;*/
+	color: #4F6B72;
+	padding: 20px 0px 20px 4%;
+	font: normal 15px "Spinnaker";
+	text-align:center !important;
+}
+#resultTable td.odd {
+	background: none repeat scroll 0 0 #E6E7E8;
+	color: #797268;
+	font: normal 15px "Spinnaker";
+	text-align:center !important;
+}
+
+#resultTable td.hovered {
+  background-color: lightblue;
+  color: #666;
+}
+
+#filter{
+width: 230px;
+border: 1px solid #C1DAD7;
+border-left: 4px solid #C1DAD7;
+padding:5px;
+background-image:url('../images/filter.gif');
+background-repeat:no-repeat;
+background-position: 3px 5px;
+padding-left:20px;
+}
+#addq{
+padding:3px;
+text-decoration:none;
+color:#000;
+}
+.clearfix{
+clear:both;
+}

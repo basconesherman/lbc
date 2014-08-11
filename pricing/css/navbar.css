@@ -1,0 +1,60 @@
+#navigation{
+	width:1024px;
+	background-image:url('../images/metal@2x.jpg');
+	background-size:100% 100%;
+	font-family:"Heroic Condensed Regular";
+}
+#navigation ul{
+	padding:0;
+	width:100%;
+	text-align:justify;
+	font-size: 0;
+	font-size: 12px\9; /* IE6-9 only hack */
+}
+#navigation li{
+	display:inline-block;
+	font-size:24pt;
+	padding:2px;
+	
+	zoom: 1;
+	*display: inline;
+}
+#navigation ul:after{
+	content: "";
+	width: 100%;
+	display: inline-block;
+
+	zoom: 1;
+	*display: inline;
+}
+#special{
+	font-family:"Thirtsty Rough Lt Thr";
+	font-size:24pt;
+}
+
+
+
+#navigation2{
+	width:940px;
+	margin:0px auto;
+	font-family:"Cheap Pine Sans";
+	font-size:18px;
+	padding-top:30px;
+	padding-bottom:13px;
+	border-bottom:solid 1px #58595B;
+}
+#navigation2 ul{
+	padding:0;
+	width:100%;
+	text-align:justify;
+	font-size: 0;
+	font-size: 12px\9; /* IE6-9 only hack */
+}
+#navigation2 li{
+	display:inline-block;
+	font-size:19pt;
+	padding-right:30px;
+	
+	zoom: 1;
+	*display: inline;
+}
